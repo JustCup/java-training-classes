@@ -17,10 +17,10 @@ public class Runner {
         BusinessTrip maxCostTrip = businessTrips[0];
         // 2. Output the array content to the console, using show() method, and the business trip with maximum cost.
         for (BusinessTrip businessTrip : businessTrips) {
-            if (trip != null) {
-                trip.show();
-                if (maxCostTrip.getTotal() < trip.getTotal()) {
-                    maxCostTrip = trip;
+            if (businessTrip != null) {
+                businessTrip.show();
+                if (maxCostTrip.getTotal() < businessTrip.getTotal()) {
+                    maxCostTrip = businessTrip;
                 }
             }
         }
@@ -34,7 +34,7 @@ public class Runner {
 
         // 5. Output the array content to the console (one element per line), using toString( ) method implicitly.
         for (BusinessTrip businessTrip : businessTrips) {
-            System.out.println(trip);
+            System.out.println(businessTrip);
         }
     }
 }

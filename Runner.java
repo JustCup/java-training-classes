@@ -16,7 +16,7 @@ public class Runner {
 
         BusinessTrip maxCostTrip = businessTrips[0];
         // 2. Output the array content to the console, using show() method, and the business trip with maximum cost.
-        for (BusinessTrip trip : businessTrips) {
+        for (BusinessTrip businessTrip : businessTrips) {
             if (trip != null) {
                 trip.show();
                 if (maxCostTrip.getTotal() < trip.getTotal()) {
@@ -33,7 +33,7 @@ public class Runner {
         System.out.println("Duration = " + (businessTrips[0].getDays() + businessTrips[1].getDays()));
 
         // 5. Output the array content to the console (one element per line), using toString( ) method implicitly.
-        for (BusinessTrip trip : businessTrips) {
+        for (BusinessTrip businessTrip : businessTrips) {
             System.out.println(trip);
         }
     }

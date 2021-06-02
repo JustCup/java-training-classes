@@ -11,7 +11,7 @@ public class Runner {
                 null,
                 new BusinessTrip("Lilia Agusha", 553, 3),
                 new BusinessTrip("Egor Letov", 953, 10),
-                new BusinessTrip(),
+                new BusinessTrip()
         };
 
         BusinessTrip maxCostTrip = businessTrips[0];

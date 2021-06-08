@@ -1,7 +1,5 @@
 package by.gsu.epamlab;
 
-import java.util.Locale;
-
 public enum Material {
     STEEL(7850.0),
     COPPER(8500.0);

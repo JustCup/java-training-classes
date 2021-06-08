@@ -1,14 +1,17 @@
 package by.gsu.epamlab;
 
-public class Material {
+public enum Material {
+    STEEL("steel", 7850.0),
+    COPPER("copper", 8500.0);
+
     private final String name;
     private final double density;
 
-    public Material() {
+    Material() {
         this(null, 0.0);
     }
 
-    public Material(String name, double density) {
+    Material(String name, double density) {
         this.name = name;
         this.density = density;
     }

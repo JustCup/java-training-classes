@@ -6,10 +6,6 @@ public enum Material {
 
     private final double density;
 
-    Material() {
-        this(0.0);
-    }
-
     Material(double density) {
         this.density = density;
     }
